@@ -1,6 +1,4 @@
-# CompleteProgram – .NET Centric Computing (BSc.CSIT 6th Sem)
-
-This repository contains **C# practice programs** and **Lab assignments** based on the course **.NET Centric Computing (CSC378)** from BSc.CSIT 6th Semester (TU/KU curriculum).
+This repository contains C# practice programs and Lab assignments based on the course .NET Centric Computing (CSC378) from BSc.CSIT 6th Semester (TU/KU curriculum).
 
 ---
 
