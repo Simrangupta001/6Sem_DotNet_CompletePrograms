@@ -36,16 +36,16 @@ namespace CompleteProgram
 
             Students s1 = new Students();
 
-            Console.Write("Enter student name: ");
+            Console.Write("Enter the student name: ");
             s1.Name = Console.ReadLine();
 
-            Console.Write("Enter age: ");
+            Console.Write("Enter the age: ");
             s1.Age = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter roll: ");
+            Console.Write("Enter the roll: ");
             s1.RollNO = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter marks: ");
+            Console.Write("Enter the marks: ");
             s1.MarksObtain = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("\n--- Student Information ---");
