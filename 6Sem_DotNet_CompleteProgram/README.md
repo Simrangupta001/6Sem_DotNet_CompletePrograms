@@ -1,58 +1,38 @@
-This repository contains C# practice programs and Lab assignments based on the course .NET Centric Computing (CSC378) from BSc.CSIT 6th Semester (TU/KU curriculum).
+# CompleteProgram – .NET Centric Computing (BSc.CSIT 6th Sem)
+
+This repo contains **C# practice programs** and **Lab assignments** for the course **.NET Centric Computing (CSC378)** – BSc.CSIT 6th Semester (TU/KU).
 
 ---
 
-## 📂 Repository Structure
+## 📂 Structure
 
 ```
 CompleteProgram/
-├── Practices/
-│   ├── Practice1.cs
-│   ├── Practice2.cs
-│   ├── ...
-│   └── Practice10.cs
+├── Practices/   (Practice1.cs ... Practice10.cs)
 ├── Labs/
 │   ├── Lab1/   (ASP.NET Basics)
-│   ├── Lab2/   (CRUD Application – ASP.NET MVC)
-│   └── Lab3/   (ADO.NET / Database Connectivity)
+│   ├── Lab2/   (CRUD – ASP.NET MVC)
+│   └── Lab3/   (ADO.NET DB Connectivity)
 └── CompleteProgram.sln
 ```
 
 ---
 
-📝 Topics Covered
-C# Fundamentals
-Variables, Loops, Arrays, Methods
-Classes, Objects, Inheritance, Polymorphism
-.NET Framework
-Namespaces, Assemblies, Exception Handling
-ASP.NET
-Web Forms, MVC, Razor Pages
-Building simple CRUD applications
-ADO.NET
-Database Connectivity (SQL Server)
-DataReader, DataSet, DataAdapter
----
+## 🚀 Run
 
-## 🚀 How to Run
-
-1. Clone this repository:
+1. Clone repo
 
    ```bash
    git clone https://github.com/yourusername/6Sem_DotNet_CompleteProgram.git
    ```
-2. Open the solution file in **Visual Studio 2022**:
-
-   ```
-   CompleteProgram.sln
-   ```
-3. In **Solution Explorer**, right-click the desired project (Practices or Labs) → **Set as Startup Project**.
-4. Press **F5** or `Ctrl+F5` to run.
+2. Open `CompleteProgram.sln` in **Visual Studio 2022**.
+3. Right-click a project → **Set as Startup Project** → Run with **F5**.
 
 ---
 
 🧑‍💻 Practices
 
+<<<<<<< Updated upstream
 Small C# programs to understand basic and intermediate concepts.
 Examples:
 
@@ -66,22 +46,21 @@ Practice7: Polymorphism Example
 Practice8: Exception Handling
 Practice9: File Handling
 Practice10: OOP Integration Example
+=======
+* Practice1: Hello World
+* Practice2: Calculator
+* Practice3: Arrays & Loops
+* … up to Practice10 (OOP examples)
+
+---
+>>>>>>> Stashed changes
 
 ## 🧪 Labs
 
-Assignments as per **BSc.CSIT 6th Sem .NET Centric Computing (CSC378)** course.
-
-* **Lab 1**: ASP.NET Basics (Web Forms / MVC introduction)
-* **Lab 2**: CRUD Application using ASP.NET MVC & C#
-* **Lab 3**: ADO.NET – Database Connectivity with SQL Server
+* **Lab1**: ASP.NET MVC basics – Hello World with Controller & View
+* **Lab2**: CRUD app (Student Records) with Entity Framework
+* **Lab3**: ADO.NET – Connect to SQL Server, insert & fetch data
 
 ---
 
-## 📖 Reference
-
-* BSc.CSIT 6th Sem Syllabus (TU & KU)
-* Microsoft .NET & C# Documentation: [https://learn.microsoft.com/dotnet](https://learn.microsoft.com/dotnet)
-
----
-
-👨‍🎓 Created for **.NET Centric Computing Lab**
+👨‍🎓 Created for **.NET Centric Computing (CSC378)**
