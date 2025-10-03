@@ -6,7 +6,7 @@ namespace CompleteProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello all from Practice1!");
+            Console.WriteLine("Hello  from Practice1!");
         }
     }
 }
