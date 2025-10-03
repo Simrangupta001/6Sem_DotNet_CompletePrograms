@@ -32,13 +32,13 @@ namespace CompleteProgram
             {
                 students[i] = new Student();
 
-                Console.Write($"\nEnter roll for student {i + 1}: ");
+                Console.Write($"\nEnter the roll for student {i + 1}: ");
                 students[i].Roll = Convert.ToInt32(Console.ReadLine());
 
-                Console.Write("Enter name: ");
+                Console.Write("Enter the name: ");
                 students[i].Name = Console.ReadLine();
 
-                Console.Write("Enter marks: ");
+                Console.Write("Enter the marks: ");
                 students[i].Marks = Convert.ToDouble(Console.ReadLine());
             }
 
