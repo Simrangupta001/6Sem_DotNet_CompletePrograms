@@ -1,7 +1,11 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 # CompleteProgram – .NET Centric Computing (BSc.CSIT 6th Sem)
 
 This repo contains **C# practice programs** and **Lab assignments** for the course **.NET Centric Computing (CSC378)** – BSc.CSIT 6th Semester (TU/KU).
+=======
+This repository contains C# practice programs and Lab assignments based on the course .NET Centric Computing (CSC378) from BSc.CSIT 6th Semester (TU/KU curriculum).
+>>>>>>> Stashed changes
 =======
 This repository contains C# practice programs and Lab assignments based on the course .NET Centric Computing (CSC378) from BSc.CSIT 6th Semester (TU/KU curriculum).
 >>>>>>> Stashed changes
@@ -23,10 +27,13 @@ CompleteProgram/
 ---
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ## 🚀 Run
 
 1. Clone repo
 =======
+=======
+>>>>>>> Stashed changes
 📝 Topics Covered
 C# Fundamentals
 Variables, Loops, Arrays, Methods
@@ -98,4 +105,7 @@ Practice10: OOP Integration Example
 ---
 
 👨‍🎓 Created for **.NET Centric Computing Lab**
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
