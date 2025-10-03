@@ -1,32 +1,42 @@
-﻿using System;
+﻿
+using System;
 
 namespace CompleteProgram
 {
     // Base class
-    class Shape
+    class Animal
     {
         // Virtual method → can be overridden in derived classes
-        public virtual void Draw()
+        public virtual void Speak()
         {
-            Console.WriteLine("Drawing a shape...");
+            Console.WriteLine("Animal makes a sound...");
         }
     }
 
     // Derived class 1
-    class Circle : Shape
+    class Dog : Animal
     {
-        public override void Draw()
+        public override void Speak()
         {
-            Console.WriteLine("Drawing a Circle ⭕");
+            Console.WriteLine("Dog says: Woof! 🐶");
         }
     }
 
     // Derived class 2
-    class Rectangle : Shape
+    class Cat : Animal
     {
-        public override void Draw()
+        public override void Speak()
         {
-            Console.WriteLine("Drawing a Rectangle ▭");
+            Console.WriteLine("Cat says: Meow! 🐱");
+        }
+    }
+
+    // Derived class 3
+    class Bird : Animal
+    {
+        public override void Speak()
+        {
+            Console.WriteLine("Bird says: Chirp! 🐦");
         }
     }
 
@@ -37,20 +47,23 @@ namespace CompleteProgram
             Console.WriteLine("=== Practice 8: Polymorphism (Method Overriding) ===");
 
             // Base class reference can hold derived objects
-            Shape s1 = new Circle();
-            Shape s2 = new Rectangle();
+            Animal a1 = new Dog();
+            Animal a2 = new Cat();
+            Animal a3 = new Bird();
 
-            s1.Draw();   // Calls Circle.Draw()
-            s2.Draw();   // Calls Rectangle.Draw()
+            a1.Speak();   // Calls Dog.Speak()
+            a2.Speak();   // Calls Cat.Speak()
+            a3.Speak();   // Calls Bird.Speak()
 
-            // Array of shapes
-            Shape[] shapes = { new Circle(), new Rectangle(), new Shape() };
+            // Array of animals
+            Animal[] animals = { new Dog(), new Cat(), new Bird(), new Animal() };
 
-            Console.WriteLine("\n--- Drawing all shapes in array ---");
-            foreach (var shape in shapes)
+            Console.WriteLine("\n--- All animals speak ---");
+            foreach (var animal in animals)
             {
-                shape.Draw(); // Polymorphism in action
+                animal.Speak(); // Polymorphism in action
             }
         }
     }
 }
+
