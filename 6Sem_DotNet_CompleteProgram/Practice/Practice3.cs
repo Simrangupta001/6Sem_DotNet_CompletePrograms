@@ -6,7 +6,7 @@ namespace CompleteProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("=== Practice 3: Simple Calculator ===");
+            Console.WriteLine("=== Practice 3: Making Simple Calculator ===");
 
             Console.Write("Enter first number: ");
             double num1 = Convert.ToDouble(Console.ReadLine());
