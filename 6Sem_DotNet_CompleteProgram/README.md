@@ -56,6 +56,7 @@ DataReader, DataSet, DataAdapter
 Small C# programs to understand basic and intermediate concepts.
 Examples:
 
+<<<<<<< Updated upstream
 * Practice1: Hello World
 * Practice2: Simple Calculator
 * Practice3: Arrays & Loops
@@ -63,6 +64,12 @@ Examples:
 * Practice10: Object-Oriented Programming
 
 ---
+=======
+Practice1: Hello World
+Practice2: Simple Calculator
+..... to ..
+Practice10: OOP Integration Example
+>>>>>>> Stashed changes
 
 ## 🧪 Labs
 
