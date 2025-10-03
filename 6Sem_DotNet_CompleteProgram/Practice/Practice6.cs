@@ -20,7 +20,7 @@ namespace CompleteProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("=== Practice 6: Classes & Objects ===");
+            Console.WriteLine("=== Practice 6: Concept of Classes & Objects ===");
 
             Console.Write("Enter number of students: ");
             int n = Convert.ToInt32(Console.ReadLine());
