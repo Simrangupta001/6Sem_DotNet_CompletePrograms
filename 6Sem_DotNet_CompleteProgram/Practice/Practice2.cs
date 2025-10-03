@@ -7,7 +7,7 @@ namespace CompleteProgram
         static void Main(string[] args)
         {
             Console.WriteLine("=== Practice 2 ===");
-            Console.Write("Enter your name: ");
+            Console.Write("Enter your full  name: ");
             string name = Console.ReadLine();
 
             Console.Write("Enter your age: ");
