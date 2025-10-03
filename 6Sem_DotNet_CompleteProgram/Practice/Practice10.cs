@@ -38,16 +38,16 @@ namespace CompleteProgram
 
             // CircleShape
             CircleShape c = new CircleShape();
-            Console.Write("Enter radius of circle: ");
+            Console.Write("Enter the  radius of circle: ");
             c.Radius = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine($"Circle Area: {c.Area():F2}");
             Console.WriteLine($"Circle Perimeter: {c.Perimeter():F2}");
 
             // RectangleShape
             RectangleShape r = new RectangleShape();
-            Console.Write("\nEnter length of rectangle: ");
+            Console.Write("\nEnter the length of rectangle: ");
             r.Length = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Enter width of rectangle: ");
+            Console.Write("Enter the  width of rectangle: ");
             r.Width = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine($"Rectangle Area: {r.Area():F2}");
             Console.WriteLine($"Rectangle Perimeter: {r.Perimeter():F2}");
