@@ -20,24 +20,18 @@ CompleteProgram/
 
 ---
 
-## 📝 Topics Covered
-
-* **C# Fundamentals**
-
-  * Variables, Loops, Arrays, Methods
-  * Classes, Objects, Inheritance, Polymorphism
-* **.NET Framework**
-
-  * Namespaces, Assemblies, Exception Handling
-* **ASP.NET**
-
-  * Web Forms / MVC / Razor Pages
-  * Building simple CRUD applications
-* **ADO.NET**
-
-  * Database Connectivity (SQL Server)
-  * DataReader, DataSet, DataAdapter
-
+📝 Topics Covered
+C# Fundamentals
+Variables, Loops, Arrays, Methods
+Classes, Objects, Inheritance, Polymorphism
+.NET Framework
+Namespaces, Assemblies, Exception Handling
+ASP.NET
+Web Forms, MVC, Razor Pages
+Building simple CRUD applications
+ADO.NET
+Database Connectivity (SQL Server)
+DataReader, DataSet, DataAdapter
 ---
 
 ## 🚀 How to Run
