@@ -8,7 +8,7 @@ namespace CompleteProgram
         {
             Console.WriteLine("=== Practice 4: Student Marks ===");
 
-            Console.Write("Enter number of students: ");
+            Console.Write("Enter the number of students: ");
             int n = Convert.ToInt32(Console.ReadLine());
 
             string[] names = new string[n];
@@ -17,10 +17,10 @@ namespace CompleteProgram
             // Input loop
             for (int i = 0; i < n; i++)
             {
-                Console.Write($"\nEnter name of student {i + 1}: ");
+                Console.Write($"\nEnter the name of student {i + 1}: ");
                 names[i] = Console.ReadLine();
 
-                Console.Write($"Enter marks of {names[i]}: ");
+                Console.Write($"Enter the marks of {names[i]}: ");
                 marks[i] = Convert.ToInt32(Console.ReadLine());
             }
 
