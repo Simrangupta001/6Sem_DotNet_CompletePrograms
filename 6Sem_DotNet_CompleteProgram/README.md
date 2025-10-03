@@ -57,18 +57,21 @@ CompleteProgram/
 
 ---
 
-## 🧑‍💻 Practices
+🧑‍💻 Practices
 
 Small C# programs to understand basic and intermediate concepts.
 Examples:
 
-* Practice1: Hello World
-* Practice2: Simple Calculator
-* Practice3: Arrays & Loops
-* …
-* Practice10: Object-Oriented Programming
-
----
+Practice1: Hello World
+Practice2: Simple Calculator
+Practice3: Arrays & Loops
+Practice4: Storing & Printing Marks of Students
+Practice5: Classes & Objects
+Practice6: Inheritance Example
+Practice7: Polymorphism Example
+Practice8: Exception Handling
+Practice9: File Handling
+Practice10: OOP Integration Example
 
 ## 🧪 Labs
 
